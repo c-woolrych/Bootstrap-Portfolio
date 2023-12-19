@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* end text */
 
+body {
+    background-image: linear-gradient(to right, pink, rgb(144, 233, 144))
+}
+
 /* navbar */
 .customNav {
     position: sticky;
@@ -112,6 +116,10 @@ h1 {
 .card:hover {
     transition: all 0.5s ease-in-out;
     box-shadow: 0.8rem -0.8rem 0.8rem 0.8rem rgb(57, 60, 61);
+}
+
+.card img {
+    max-height: 20rem;
 }
 
 a {
