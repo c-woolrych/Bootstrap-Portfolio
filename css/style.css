@@ -62,17 +62,17 @@ body {
     justify-content: center;
 }
 
-.hero img {
+/* .hero img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .aboutimg {
     max-height: 15rem;
-    display: flex;
+    /* display: flex;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
 }
 
 h1 {
@@ -107,7 +107,7 @@ h1 {
 }
 
 .card {
-    margin: 0.5rem
+    margin: 0.5rem;
 }
 
 .card:hover {
@@ -150,3 +150,22 @@ h3 {
     background-color: white;
   }
 /*end project section*/
+
+/*about me section */
+
+.about {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+/*end about me*/
+
+.footer {
+    padding: 2.0rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: antiquewhite;
+    display: flex;
+    box-shadow: 0 0 2.5rem 0 black;
+    justify-content: center;
+  }

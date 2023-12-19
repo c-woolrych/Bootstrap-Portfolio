@@ -21,10 +21,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
             </ul>
           </div>
@@ -43,7 +43,7 @@
   <!-- End jumbotron -->
 
   <!--projects section-->
-  <h2 class="sectionHeading">Projects</h2>
+  <h2 class="sectionHeading" id="projects">Projects</h2>
 
   <div class="container-fluid">
     <div class="card text-bg-dark">
@@ -114,19 +114,29 @@
     </div>
   </div>
 
-  <section class="container ">
-    <div class="display-flex justify-content-center">
-      <h2>About Me</h2>
-      <br/>
-      <h4>Skills I Expect To Learn and Improve on</h4>
-      <p>HTML | CSS | JAVASCRIPT | UX | GIT | GITHUB | REACT.JS | NETLIFY</p>
-      <h4>Contact</h4>
-      <p>c.woolrych@gmail.com | <a href="https://github.com/c-woolrych/" target="_blank" id="githubLink" alt="link to github repository">GitHub</a></p>
+  <div class="row about" id="about">
+    <h2>About Me</h2>
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card about">
+        <div class="card-body">
+          <h5 class="card-title">Skills I Expect To Learn and Improve on</h5>
+          <p class="card-text">HTML | CSS | JAVASCRIPT | UX | GIT | GITHUB | REACT.JS | NETLIFY</p>
+        </div>
+      </div>
     </div>
-  </section>
+    <div class="col-sm-6">
+      <div class="card about">
+        <div class="card-body">
+          <h5 class="card-title">Contact</h5>
+          <p class="card-text">c.woolrych@gmail.com | <a href="https://github.com/c-woolrych/" target="_blank" id="githubLink" alt="link to github repository" >GitHub</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <br/>
   <footer>
-    <h5 class="footer">Made with <span role="img" aria-label="heart">❤️</span> and Bootstrap</h5>
+    <h5 class="footer text-bg-dark">Made with <span role="img" aria-label="heart">❤️</span> and Bootstrap</h5>
 </footer>
 
 
