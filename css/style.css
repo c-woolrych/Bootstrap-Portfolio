@@ -6,6 +6,11 @@ h1, h2, h3, h4, h5, h6 {
 .p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.sectionHeading {
+    display: flex;
+    justify-content: center;
+}
 /* end text */
 
 /* navbar */
@@ -87,8 +92,21 @@ h1 {
 }
 /*end jumbotron*/
 
-.sectionHeading {
+/*project section*/
+.btn-primary {
     display: flex;
-    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    background-color: black;
+    border-color: white;
 }
 
+.btn-primary:hover {
+    background-color: antiquewhite;
+}
+
+
+.card:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0.8rem -0.8rem 0.8rem 0.8rem rgb(57, 60, 61);
+}
