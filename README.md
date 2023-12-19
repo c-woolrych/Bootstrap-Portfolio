@@ -1,6 +1,9 @@
 # Bootstrap Portfolio
 
+This repo is for the portfolio made with bootstrap components.
+
 ## Resources
+
 Listed here are websites used for definiing the best syntax needed for the element being worked on;
 
 * Tools needed for layout and media queries
