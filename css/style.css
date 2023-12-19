@@ -34,7 +34,6 @@ body {
 
 .nav-item {
     margin: 0px 15px;
-
 }
 
 .navbar-toggler {
@@ -50,7 +49,6 @@ body {
 .nav-item:hover {
     text-decoration:underline;
 }
-
 /* end navbar */
 
 /* jumbotron */
@@ -92,7 +90,6 @@ h1 {
 .jumboText {
     text-align: center;
     color: antiquewhite;
-
 }
 /*end jumbotron*/
 
